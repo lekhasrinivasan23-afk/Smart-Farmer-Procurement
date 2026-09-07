@@ -71,7 +71,7 @@ function AppLayout() {
 function App() {
   return (
     <LanguageProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/Smart-Farmer-Procurement">
         <AppLayout />
       </BrowserRouter>
     </LanguageProvider>
